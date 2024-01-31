@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nunes Sports</title>
+    <style>
+        /* Estilos para os botões */
+        .button-container {
+            text-align: center; /* Centraliza horizontalmente */
+        }
+
+        .button {
+            background-color: #4CAF50; /* Cor de fundo verde */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: block; /* Altera para bloco para centralizar verticalmente */
+            width: 200px; /* Largura dos botões */
+            margin: 10px auto; /* Margens automáticas para centralizar verticalmente */
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 12px; /* Borda arredondada */
+        }
+
+        /* Estilo para o botão de exibir */
+        .exibir-button {
+            background-color: #008CBA; /* Cor de fundo azul */
+        }
+
+        /* Estilo para o botão de inserir */
+        .inserir-button {
+            background-color: #f44336; /* Cor de fundo vermelha */
+        }
+
+        /* Estilo para o botão de deletar */
+        .deletar-button {
+            background-color: #FFD700; /* Cor de fundo amarela */
+        }
+
+        /* Estilo para o botão de modificar */
+        .modificar-button {
+            background-color: #FF8C00; /* Cor de fundo laranja */
+        }
+
+        /* Estilo para o título */
+        h1 {
+            text-align: center; /* Centraliza o texto */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Nunes Sports</h1>
+
+<!-- Container para os botões -->
+<div class="button-container">
+    <!-- Botão para Exibir Produtos -->
+    <button class="button exibir-button" onclick="window.location.href='/php/exibir.php'">Exibir Produtos</button>
+
+    <!-- Botão para Inserir Produto -->
+    <button class="button inserir-button" onclick="window.location.href='inserir.html'">Inserir Produto</button>
+
+    <!-- Botão para Deletar Produto -->
+    <button class="button deletar-button" onclick="window.location.href='verificar_deletar.html'">Deletar Produto</button>
+
+    <!-- Botão para Modificar Produto -->
+    <button class="button modificar-button" onclick="window.location.href='verificar_modificar.html'">Modificar Produto</button>
+</div>
+
+</body>
+</html>
